@@ -11,15 +11,15 @@ public class SetTime implements ModInitializer {
     public static long nightTime;
     public static Logger logger;
 
+    public static void log(Level level, String message) {
+        logger.log(level, message);
+    }
+
     @Override
     public void onInitialize() {
         levelExists = false;
         nightTime = 12542;
         logger = LogManager.getLogger("set-time");
         log(Level.INFO, "initializing set-time");
-    }
-
-    public static void log(Level level, String message) {
-        logger.log(level, message);
     }
 }
