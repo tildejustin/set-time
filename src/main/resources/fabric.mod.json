@@ -12,15 +12,11 @@
   },
   "license": "MIT",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "xyz.tildejustin.settime.SetTime"
-    ]
-  },
   "mixins": [
     "set-time.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.12.12"
+    "fabricloader": ">=0.12.12",
+    "minecraft": ">=1.16 <1.18.2"
   }
 }

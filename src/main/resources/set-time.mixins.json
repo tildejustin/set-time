@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "xyz.tildejustin.settime.mixins",
+  "package": "dev.tildejustin.settime.mixins",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "MinecraftClientMixin"
